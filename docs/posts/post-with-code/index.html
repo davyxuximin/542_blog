@@ -230,7 +230,7 @@ Figure&nbsp;1: Picture of a robot thinking on math question, picture created by 
 <h2 class="anchored" data-anchor-id="prerequisite">Prerequisite:</h2>
 <p>Before proceed to this tutorial, make sure you have these installed in your computer:</p>
 <ul>
-<li>An IDE, e.g.&nbsp;(Visual Studio Code)[https://code.visualstudio.com]</li>
+<li>An IDE, e.g.&nbsp;<a href="https://code.visualstudio.com">Visual Studio Code</a></li>
 <li><a href="https://www.python.org/downloads/">Python 3.7+</a><span class="citation" data-cites="Python">(<a href="#ref-Python" role="doc-biblioref">Van Rossum and Drake 2009</a>)</span></li>
 <li><a href="https://docs.conda.io/projects/conda/en/stable/user-guide/getting-started.html">conda</a> (recommended)<span class="citation" data-cites="anaconda">(<a href="#ref-anaconda" role="doc-biblioref"><span>“Anaconda Software Distribution”</span> 2020</a>)</span></li>
 <li><a href="https://pandas.pydata.org/docs/getting_started/install.html">Pandas</a><span class="citation" data-cites="mckinney-proc-scipy-2010">(<a href="#ref-mckinney-proc-scipy-2010" role="doc-biblioref">McKinney 2010</a>)</span></li>
@@ -391,7 +391,7 @@ weighted avg       0.97      0.97      0.97       346
 </code></pre>
 </div>
 </div>
-<p>The precision here means how many predictions are correct and recall means how many relevant items are identified. F1 score gives a balance between the 2 metrics. Given the high score and accuracy here, we can say that the model we built is powerful and reliable. We can also see a detail here, how many cars we are doing correct and how many we are doing incorrect, just use a confusion matrix<a href="#fig-confusionmatrix" class="quarto-xref">Figure&nbsp;3</a>:</p>
+<p>The precision here means how many predictions are correct and recall means how many relevant items are identified. F1 score gives a balance between the 2 metrics. Given the high score and accuracy here, we can say that the model we built is powerful and reliable. We can also see a detail here, how many cars we are doing correct and how many we are doing incorrect, just use a confusion matrix like <a href="#fig-confusionmatrix" class="quarto-xref">Figure&nbsp;3</a>:</p>
 <div id="confusion_matrix" class="cell" data-execution_count="11">
 <div class="sourceCode cell-code" id="cb14"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a>cm <span class="op">=</span> ConfusionMatrixDisplay.from_estimator(</span>
 <span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a>    car_pipe,</span>

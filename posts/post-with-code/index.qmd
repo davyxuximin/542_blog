@@ -16,7 +16,7 @@ In this tutorial, I will be teaching how to create a classification model (a mod
 ## Prerequisite:
 Before proceed to this tutorial, make sure you have these installed in your computer:
 
-- An IDE, e.g. (Visual Studio Code)[https://code.visualstudio.com]
+- An IDE, e.g. [Visual Studio Code](https://code.visualstudio.com)
 - [Python 3.7+](https://www.python.org/downloads/)[@Python]
 - [conda](https://docs.conda.io/projects/conda/en/stable/user-guide/getting-started.html) (recommended)[@anaconda]
 - [Pandas](https://pandas.pydata.org/docs/getting_started/install.html)[@mckinney-proc-scipy-2010]
@@ -178,7 +178,7 @@ print(classification_report(y_test, predictions))
 ```
 
 The precision here means how many predictions are correct and recall means how many relevant items are identified. F1 score gives a balance between the 2 metrics. Given the high score and accuracy here, we can say that the model we built is powerful and reliable.
-We can also see a detail here, how many cars we are doing correct and how many we are doing incorrect, just use a confusion matrix[@fig-confusionmatrix]:
+We can also see a detail here, how many cars we are doing correct and how many we are doing incorrect, just use a confusion matrix like [@fig-confusionmatrix]:
 ```{python}
 #| label: confusion_matrix
 #| output: false
