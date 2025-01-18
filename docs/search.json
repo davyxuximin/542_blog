@@ -7,25 +7,11 @@
     "text": "About this blog"
   },
   {
-    "objectID": "posts/welcome/index.html",
-    "href": "posts/welcome/index.html",
-    "title": "Welcome To My Blog",
-    "section": "",
-    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
-  },
-  {
     "objectID": "posts/post-with-code/index.html",
     "href": "posts/post-with-code/index.html",
     "title": "A First Touch to Machine Learning: A Generalized Classification Tutorial",
     "section": "",
     "text": "Figure 1: Picture of a robot thinking on math question, picture created by (Joshinav 2023)\nImagine a world where your smartphone predicts your next word as you type, where cars drive themselves, and where medical diagnoses are enhanced by machines detecting anomalies invisible to the human eye. These aren’t the works of science fiction—they’re the real-life applications of machine learning.\nMachine learning is a transformative field where computers learn patterns from data, enabling them to make predictions, solve problems, and even adapt to new challenges without being explicitly programmed. It’s the invisible engine powering innovations in healthcare, finance, entertainment, and virtually every industry you can think of.\nIn this tutorial, I will be teaching how to create a classification model (a model that is used to classified an item) using sci-kit learn package. A detail of the example used can be found in the repository here"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "blog",
-    "section": "",
-    "text": "A First Touch to Machine Learning: A Generalized Classification Tutorial\n\n\n\n\n\n\ncode\n\n\nanalysis\n\n\ntutorial\n\n\n\n\n\n\n\n\n\nJan 17, 2025\n\n\nXimin Xu\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/post-with-code/index.html#prerequisite",
@@ -75,5 +61,12 @@
     "title": "A First Touch to Machine Learning: A Generalized Classification Tutorial",
     "section": "Conclusion",
     "text": "Conclusion\nIn this blog, we demonstrated an end-to-end classification pipeline:\n\nLoaded and explored the Car Evaluation dataset.\nTransformed categorical features and split data for training/testing.\nTrained SVC model with RBF kernal.\nEvaluated them using accuracy, classification reports, and confusion matrices.\n\nThis is a shorter way of training a well-functional model. In real life you may need to tune the model, and do feature engineer in order to get a robust model.\nThis framework can be used for any classification task: - Swap in your own dataset. - Adjust the preprocessing steps. - Select and tune models based on your domain needs. With these building blocks, you’re well on your way to solving practical ML classification challenges—whether you’re predicting car quality, diagnosing diseases, or detecting fraudulent transactions."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "blog",
+    "section": "",
+    "text": "A First Touch to Machine Learning: A Generalized Classification Tutorial\n\n\n\n\n\n\ncode\n\n\nanalysis\n\n\ntutorial\n\n\n\n\n\n\n\n\n\nJan 17, 2025\n\n\nXimin Xu\n\n\n\n\n\n\nNo matching items"
   }
 ]
