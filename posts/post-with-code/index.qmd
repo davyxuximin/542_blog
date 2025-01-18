@@ -14,6 +14,8 @@ Machine learning is a transformative field where computers learn patterns from d
 In this tutorial, I will be teaching how to create a classification model (a model that is used to classified an item) using sci-kit learn package. A detail of the example used can be found in the repository [here](https://github.com/UBC-MDS/Car_Evaluation_Analysis)
 
 ## Prerequisite:
+Before proceed to this tutorial, make sure you have these installed in your computer:
+
 - An IDE, e.g. (Visual Studio Code)[https://code.visualstudio.com]
 - [Python 3.7+](https://www.python.org/downloads/)[@Python]
 - [conda](https://docs.conda.io/projects/conda/en/stable/user-guide/getting-started.html) (recommended)[@anaconda]
@@ -92,6 +94,7 @@ For following steps, you will need to update the `main()` function. To execute t
 The next thing needed to do is do a inspection to the nature of the data. Because we want to create a classification model, we shall make sure that the target we are predicting is a classification data, then we need to see the data type of the attributes:
 ```{python}
 #| label: print
+#| output: false
 print(raw_data.head())
 print(raw_data.info())
 ```
@@ -162,12 +165,14 @@ There are other models in `sklearn` package like Random Forest classifier or KNN
 Now we have trained our model using the training data, how are we suppose to test the performance of our trained model?
 Well, remember the test data we splited out earlier this tutorial? Now it's the time to use it. We can give the features from the test data to our model and let it predict the outcome, and calculate the accuracy of the model. We can use the `.score()` function of `sklearn` to do this:
 ```{python}
+#| label: score
 score = car_pipe.score(X_test, y_test).round(3)
 print(f"The accuracy of our mode is {score}")
 ```
 
 Besides accuracy, we can create a classification report using `sklearn` module:
 ```{python}
+#| label: classification_report
 predictions = car_pipe.predict(X_test)
 print(classification_report(y_test, predictions))
 ```
